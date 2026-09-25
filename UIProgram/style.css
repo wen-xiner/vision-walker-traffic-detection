@@ -1,0 +1,109 @@
+
+/* 主背景 */
+#MainWindow {
+    background-color: #1E1E2F;
+}
+
+/* 主色调 */
+QGroupBox {
+    border: 2px solid #00ADB5;
+    background-color: #2D4059;
+    color: #EEEEEE;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #2D4059;
+    color: #EEEEEE;
+    border: 1px solid #00ADB5;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #00ADB5;
+    color: #1E1E2F;
+}
+
+QPushButton:pressed {
+    background-color: #FFD93D;
+    color: #1E1E2F;
+}
+
+/* 强调色按钮 */
+QPushButton#SaveBtn, QPushButton#ExitBtn {
+    background-color: #FF5722;
+    color: #EEEEEE;
+}
+
+QPushButton#SaveBtn:hover, QPushButton#ExitBtn:hover {
+    background-color: #FFD93D;
+    color: #1E1E2F;
+}
+
+/* 文本框样式 */
+QLineEdit {
+    background-color: #2D4059;
+    color: #EEEEEE;
+    border: 1px solid #00ADB5;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* 下拉框样式 */
+QComboBox {
+    background-color: #2D4059;
+    color: #EEEEEE;
+    border: 1px solid #00ADB5;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #2D4059;
+    color: #EEEEEE;
+    border: 1px solid #00ADB5;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #EEEEEE;
+}
+
+/* 表格样式 */
+QTableWidget {
+    background-color: #2D4059;
+    color: #EEEEEE;
+    border: 1px solid #00ADB5;
+}
+
+QTableWidget::item {
+    background-color: #2D4059;
+    color: #EEEEEE;
+}
+
+QTableWidget::item:selected {
+    background-color: #00ADB5;
+    color: #1E1E2F;
+}
+
+/* 滚动条样式 */
+QScrollBar {
+    background-color: #2D4059;
+    border: 1px solid #00ADB5;
+}
+
+QScrollBar::handle {
+    background-color: #00ADB5;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:hover {
+    background-color: #FFD93D;
+}
+
+/* 显示区域 */
+QLabel#label_show {
+    background-color: #1E1E2F;
+    border: 1px solid #00ADB5;
+}
